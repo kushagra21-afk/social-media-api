@@ -8,7 +8,7 @@ const userRoute = require("./routes/user");
 const authRoute = require("./routes/auth");
 const bodyParser = require("body-parser");
 
-dotenv.config();
+dotenv.config({path: "./vars/.env"});
 
 mongoose.connect(
   process.env.MONGO_URL,
