@@ -1,2 +1,6 @@
-# Code_Editor_2
-# Code_Editor_2
+Social Media Api
+functionalities:
+->Creates a user
+->Login 
+->Deletion
+->Modification
