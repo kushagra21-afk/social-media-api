@@ -20,10 +20,6 @@ const UserSchema = new mongoose.Schema(
       required: true,
       min: 6,
     },
-    city: {
-      type: String,
-      max: 50,
-    },
     desc: {
       type: String,
       max: 50,
